@@ -20,8 +20,8 @@ export class AlunosGuard implements CanActivateChild {
     | boolean
     | UrlTree {
     if (state.url.includes('editar')) {
-      alert('sem permissão');
-      return of(false);
+      //alert('sem permissão');
+      //return of(false);
     }
     return true;
   }
